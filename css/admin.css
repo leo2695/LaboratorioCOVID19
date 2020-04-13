@@ -1,0 +1,50 @@
+.login-page .main-footer {
+  display: none;
+}
+
+
+/* Esto es para arregla lo de fontawesome icon picker */
+.fade:not(.show) {
+  opacity: 1;
+}
+
+
+/* FORM EN ADMIN DE LOS REGISTRADOS */
+.lista-precios{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.lista-precios .numero{
+  font-size: 2.2rem;
+}
+
+.contenido-dia label{
+  font-weight: 500 !important;
+}
+
+.contenido-dia time{
+color: #fe4918;
+font-weight: bold;
+}
+
+.tabla-precio h3{
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fe4918;
+
+}
+
+.tabla-precio ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contenido-dia{
+  display: none;
+}
+
+/*  */

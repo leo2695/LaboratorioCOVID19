@@ -129,6 +129,7 @@ $(function () {
     //-------------
     //- LINE CHART -
     //--------------
+    if(document.querySelector('#estadisticas')){
     var lineChartCanvas = $('#estadisticas').get(0).getContext('2d')
 
     var lineChart = new Chart(lineChartCanvas, {
@@ -136,6 +137,7 @@ $(function () {
       data: areaChartData,
       options: areaChartOptions
     })
+  }
     /* FIN CHART JS */
 
   });
